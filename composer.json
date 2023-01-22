@@ -1,0 +1,24 @@
+{
+  "name": "haringsrob/twill-contact-form",
+  "description": "A twill package",
+  "homepage": "https://github.com/haringsrob/twill-contact-form",
+  "license": "MIT",
+  "require": {
+    "area17/twill": "^3",
+    "livewire/livewire": "^v2.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "TwillContactForm\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TwillContactForm\\TwillContactFormServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
